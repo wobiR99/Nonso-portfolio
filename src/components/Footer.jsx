@@ -16,9 +16,14 @@ const Footer = () => {
         >
           nonsoobi17@gmail.com
         </a>
-        <small className="font-semibold sm:text-[32px] text-2xl text-white">
+        <a
+          href="https://wa.me/2348165905769"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="font-semibold sm:text-[32px] text-2xl text-white"
+        >
           +234 8165 9057 69
-        </small>
+        </a>
       </div>
 
       <div className="flex justify-between mt-6">
