@@ -8,7 +8,7 @@ import hamburger from "./hamburger.png";
 import download from "./download.png";
 import arrow from "./arrow.png";
 import behance from "./behance.png";
-import x from "./x.png";
+import X from "./X.png";
 import close from "./close.png";
 import medal from "./medal.png";
 
@@ -23,7 +23,7 @@ export {
   download,
   arrow,
   behance,
-  x,
+  X,
   close,
   medal,
 };
