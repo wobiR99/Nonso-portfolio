@@ -1,5 +1,5 @@
 import React from "react";
-import { behance, x } from "../assets";
+import { behance, X } from "../assets";
 
 const Footer = () => {
   return (
@@ -33,7 +33,7 @@ const Footer = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src={x} className="w-6 h-6" />
+            <img src={X} className="w-6 h-6" />
           </a>
         </p>
         <p className="font-semibold text-sm sm:text-base text-white ">
