@@ -10,7 +10,6 @@
 }
 
 @layer base {
-
   /* Remove scrollbar */
   .remove-scrollbar::-webkit-scrollbar {
     width: 0px;
@@ -31,4 +30,9 @@
     /* background: #1e2238; */
     background: transparent;
   }
+}
+
+.no-scroll {
+  overflow: hidden;
+  height: 100%;
 }

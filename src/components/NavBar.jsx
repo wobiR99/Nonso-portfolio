@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { close, hamburger } from "../assets";
 import { Link } from "react-router-dom";
 
@@ -6,8 +6,18 @@ const NavBar = ({ active, setActive }) => {
   const [showItems, setShowItems] = useState(false);
   const menuRef = useRef();
 
+  useEffect(() => {
+    if (showItems) {
+      document.body.classList.add("no-scroll");
+    } else {
+      document.body.classList.remove("no-scroll");
+    }
+
+    return () => document.body.classList.remove("no-scroll");
+  }, [showItems]);
+
   return (
-    <nav className="flex justify-between items-center px-4 py-6 md:px-[120px] md:py-5 ">
+    <nav className="flex justify-between items-center px-4 py-6 md:px-[120px] md:py-5  ">
       <Link to="/" onClick={() => setActive("")}>
         <h1 className="font-bold text-base">OBI CHUKWUNONSO C.</h1>
       </Link>
@@ -69,7 +79,7 @@ const NavBar = ({ active, setActive }) => {
             ref={menuRef}
             className={`${
               !showItems ? "hidden" : "flex"
-            } flex-col  absolute h-full items-center gap-4   top-0 right-0 min-w-full z-10 transition-all ease-in duration-500  bg-menuBg`}
+            } flex-col  absolute h-screen items-center gap-4   top-0 right-0 min-w-full z-10 transition-all ease-in duration-500  bg-menuBg`}
           >
             <div className="flex items-center justify-end w-full p-4">
               {/* <Link to="/" onClick={() => setShowItems(false)}>

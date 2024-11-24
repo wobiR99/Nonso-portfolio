@@ -8,9 +8,14 @@ const Footer = () => {
         <p className="font-semibold sm:text-[32px] text-2xl text-[#888080] ">
           Looking for a new talent?
         </p>
-        <h2 className="sm:text-[64px] text-[32px] text-white  ">
+        <a
+          href="mailto:nonsoobi17@gmail.com"
+          rel="noopener noreferrer"
+          target="_blank"
+          className="sm:text-[64px] text-[32px] text-white  "
+        >
           nonsoobi17@gmail.com
-        </h2>
+        </a>
         <small className="font-semibold sm:text-[32px] text-2xl text-white">
           +234 8165 9057 69
         </small>
