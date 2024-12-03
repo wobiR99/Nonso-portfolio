@@ -1,17 +1,10 @@
 import React from "react";
 
 const PersonalInfo = () => {
-  const age = new Date();
-  const myAge = age.getFullYear();
-
   const infos = [
     {
       info: "Name",
       details: "Obi Chukwunonso Caleb",
-    },
-    {
-      info: "Age",
-      details: myAge - 2004,
     },
     {
       info: "Location",
