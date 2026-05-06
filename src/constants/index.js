@@ -1,4 +1,4 @@
-import { project1, project2, project3, project4 } from "../assets";
+import { project1, project2, project3, project4, gec, quad } from "../assets";
 
 export const liveProjects = [
   {
@@ -18,6 +18,26 @@ export const liveProjects = [
     role: "Website & Product Designer",
     tag: "E-commerce, Business",
     image: project2,
+  },
+  {
+    title: "Quadstores",
+    about:
+      "Quad is Nigeria’s smart commerce discovery platform, where users find the best products across different vendors using intelligent search and real-time comparisons. It simplifies how people shop by helping them discover the most relevant, affordable, and trusted options instantly. Quad connects users to vendors, making product discovery faster, smarter, and more efficient. With Quad, users can explore deals, compare prices, and make informed buying decisions—all in one place.",
+    category: "Web App",
+    role: "Product Designer",
+    tag: "E-commerce, AI, Marketplace",
+    image: quad,
+    link: "https://www.quadstores.com",
+  },
+  {
+    title: "Golden Edifice Consult",
+    about:
+      "Golden Edifice Consult is a professional consulting firm focused on delivering strategic solutions across business development, real estate, and project management. The platform presents the firm’s services, expertise, and portfolio in a clear and structured way, helping clients understand their value and easily engage with their offerings. It is designed to build trust, communicate credibility, and position the brand as a reliable partner for individuals and organizations seeking growth and efficient project execution.",
+    category: "Website",
+    role: "Website Designer",
+    tag: "Business, Consulting, Corporate",
+    image: gec,
+    link: "https://www.goldenedificeconsult.com",
   },
 ];
 
