@@ -1,4 +1,4 @@
-import { project1, project2, project3, project4 } from "../assets";
+import { project1, project2, project3, project4, gec, quad } from "../assets";
 
 export const liveProjects = [
   {
@@ -18,6 +18,26 @@ export const liveProjects = [
     role: "Website & Product Designer",
     tag: "E-commerce, Business",
     image: project2,
+  },
+  {
+    title: "Quadstores",
+    about:
+      "Tradeet is Nigeria’s number one marketplace, where personalized shopping meets unbeatable prices. It provide a platform for you to buy, sell and donate valuables to achieve your desired goal(s). It also offer top quality products across different categories like fashion, mobile phones, electronics, and home essentials. With Tradeet, you can give away your used items and donate to charity. Achieve your aims with quality deals at a click!",
+    category: "Web App",
+    role: "Product Designer",
+    tag: "E-commerce, AI, Marketplace",
+    image: quad,
+    link: "https://www.quadstores.com",
+  },
+  {
+    title: "Golden Edifice Consult",
+    about:
+      "Tradeet is Nigeria’s number one marketplace, where personalized shopping meets unbeatable prices. It provide a platform for you to buy, sell and donate valuables to achieve your desired goal(s). It also offer top quality products across different categories like fashion, mobile phones, electronics, and home essentials. With Tradeet, you can give away your used items and donate to charity. Achieve your aims with quality deals at a click!",
+    category: "Website",
+    role: "Website Designer",
+    tag: "Business, Consulting, Corporate",
+    image: gec,
+    link: "https://www.goldenedificeconsult.com",
   },
 ];
 
