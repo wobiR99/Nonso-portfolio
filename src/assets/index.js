@@ -11,6 +11,8 @@ import behance from "./behance.png";
 import X from "./X.png";
 import close from "./close.png";
 import medal from "./medal.png";
+import quad from "./quad.jpg";
+import gec from "./gec.jpg";
 
 export {
   ping,
@@ -26,4 +28,6 @@ export {
   X,
   close,
   medal,
+  quad,
+  gec,
 };
