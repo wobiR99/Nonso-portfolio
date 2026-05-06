@@ -33,16 +33,16 @@ export default Projects;
 
 const ProjectCard = ({ liveProject }) => {
   return (
-    <div className="flex flex-col sm:gap-[60px] gap-6 justify-center items-center">
+    <div className="flex flex-col sm:gap-[60px] gap-6 justify-center items-center w-full">
       <img
         src={liveProject.image}
-        className="sm:h-[380px] w-full object-contain sm:object-left  "
+        className=" sm:h-[380px] w-full object-contain sm:object-left  "
       />
       <aside className="flex flex-col gap-8">
         <h4 className="sm:text-2xl text-xl font-semibold ">
           {liveProject.title}
         </h4>
-        <p className="text-base sm:h-[114px] h-full sm:w-[584px] ">
+        <p className="text-base sm:h-[114px] h-full  sm:w-[584px] ">
           {liveProject.about}
         </p>
 
@@ -59,10 +59,22 @@ const ProjectCard = ({ liveProject }) => {
           </p>
         </div>
 
-        <button className="flex items-center sm:self-start  justify-center gap-2 py-[22px] px-8 border border-black">
-          <p className="font-semibold text-base">Coming Soon</p>
-          <img src={arrow} className="w-8 h-8" />
-        </button>
+        {liveProject.link ? (
+          <a
+            href={liveProject.link}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center sm:self-start  justify-center gap-2 py-[22px] px-8 border border-black"
+          >
+            <p className="font-semibold text-base">Project Details</p>
+            <img src={arrow} className="w-8 h-8" />
+          </a>
+        ) : (
+          <button className="flex items-center sm:self-start  justify-center gap-2 py-[22px] px-8 border border-black">
+            <p className="font-semibold text-base">Coming Soon</p>
+            <img src={arrow} className="w-8 h-8" />
+          </button>
+        )}
       </aside>
     </div>
   );
