@@ -22,7 +22,7 @@ export const liveProjects = [
   {
     title: "Quadstores",
     about:
-      "Tradeet is Nigeria’s number one marketplace, where personalized shopping meets unbeatable prices. It provide a platform for you to buy, sell and donate valuables to achieve your desired goal(s). It also offer top quality products across different categories like fashion, mobile phones, electronics, and home essentials. With Tradeet, you can give away your used items and donate to charity. Achieve your aims with quality deals at a click!",
+      "Quad is Nigeria’s smart commerce discovery platform, where users find the best products across different vendors using intelligent search and real-time comparisons. It simplifies how people shop by helping them discover the most relevant, affordable, and trusted options instantly. Quad connects users to vendors, making product discovery faster, smarter, and more efficient. With Quad, users can explore deals, compare prices, and make informed buying decisions—all in one place.",
     category: "Web App",
     role: "Product Designer",
     tag: "E-commerce, AI, Marketplace",
@@ -32,7 +32,7 @@ export const liveProjects = [
   {
     title: "Golden Edifice Consult",
     about:
-      "Tradeet is Nigeria’s number one marketplace, where personalized shopping meets unbeatable prices. It provide a platform for you to buy, sell and donate valuables to achieve your desired goal(s). It also offer top quality products across different categories like fashion, mobile phones, electronics, and home essentials. With Tradeet, you can give away your used items and donate to charity. Achieve your aims with quality deals at a click!",
+      "Golden Edifice Consult is a professional consulting firm focused on delivering strategic solutions across business development, real estate, and project management. The platform presents the firm’s services, expertise, and portfolio in a clear and structured way, helping clients understand their value and easily engage with their offerings. It is designed to build trust, communicate credibility, and position the brand as a reliable partner for individuals and organizations seeking growth and efficient project execution.",
     category: "Website",
     role: "Website Designer",
     tag: "Business, Consulting, Corporate",
