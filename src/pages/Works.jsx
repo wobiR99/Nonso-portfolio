@@ -16,7 +16,7 @@ const Works = () => {
             </span>
           </h3>
 
-          <div className="flex flex-col sm:grid sm:grid-cols-2  justify-center items-center gap-8 w-full">
+          <div className="flex flex-col-reverse sm:flex sm:flex-wrap sm:flex-row-reverse   justify-center items-center gap-8 w-full">
             {liveProjects.map((liveProject) => (
               <ProjectCard
                 key={liveProject.title}
@@ -53,7 +53,7 @@ export default Works;
 
 const ProjectCard = ({ finishedProject }) => {
   return (
-    <div className="flex flex-col sm:gap-[60px] gap-6 justify-center items-center w-full">
+    <div className="flex flex-col sm:gap-[60px] sm:w-[48%] gap-6 justify-center items-center w-full">
       <img
         src={finishedProject.image}
         className=" sm:h-[380px] w-full object-contain sm:object-left  "
