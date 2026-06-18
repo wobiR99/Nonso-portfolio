@@ -5,7 +5,7 @@ const About = ({ setActive }) => {
   return (
     <div className="flex flex-col gap-8 items-center justify-center px-4 sm:px-[120px]">
       <p className="font-normal text-2xl  sm:text-[40px]">
-        As a freelance UI/UX, product, and website designer with over 2 years of
+        As a freelance UI/UX, product, and website designer with over 5 years of
         experience, I take a thoughtful, user-focused approach to creating
         impactful designs for web and mobile products that make life easier and
         more exciting for people.
